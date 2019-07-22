@@ -1,0 +1,23 @@
+{
+  "name": "tip-calculator",
+  "version": "1.0.0",
+  "description": "A simple node CLI app that takes in a bill amount and a desired tip percentage, calculates the tip amount, and then displays the tip amount and the total bill.",
+  "main": "calc.js",
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdimartino510/Tip-Calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdimartino510/Tip-Calculator/issues"
+  },
+  "homepage": "https://github.com/sdimartino510/Tip-Calculator#readme"
+}
