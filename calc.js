@@ -33,6 +33,6 @@ function tipCalc(billAmount, tipPercent) {
   var tipDecimal = tipPercent / 100;
   var tipAmount = tipDecimal * billAmount;
   var billTotal = tipAmount + billAmount;
-  console.log("The amount of the tip is $" + tipAmount);
-  console.log("Your total bill is $" + billTotal);
+  console.log("The amount of the tip is $" + tipAmount.toFixed(2));
+  console.log("Your total bill is $" + billTotal.toFixed(2));
 }
